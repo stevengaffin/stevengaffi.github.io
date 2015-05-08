@@ -1,0 +1,196 @@
+body {
+background-image:url('images/dark_bg.jpg');
+text-align: center;
+font-size: 16px;
+font-family:  'Century Gothic', Arial, 'Helvetica Neue', Helvetica, sans-serif;
+color: #808183;
+margin-top: 0px;
+padding-top: 0px;
+
+}
+
+
+
+a {
+outline: none;
+color: #808183;
+}
+
+h1 {
+font-size: 1.5em;
+}
+
+img {
+border: 0px;
+}
+
+h6 {
+display: none;
+}
+
+#light_bg{
+position: absolute;
+top: 0px;
+left: 0px;
+height: 300px;
+background-image:url('images/light_bg.jpg');
+width: 100%;
+border-bottom: black 3px solid;
+}
+
+#container {
+position: relative;
+top: 0px;
+margin: 0px auto;
+width: 950px;
+height: 600px;
+}
+
+#logo {
+position: relative;
+margin: 20px auto;
+width: 950px;
+height: 186px;
+}
+
+
+#footer {
+position: relative;
+width: 950px;
+height: 100px;
+background-image:url('images/bar.png');
+background-repeat:no-repeat;
+text-align:left;
+padding-top: 30px;
+font-size: 1.5em;
+}
+
+#footer p{
+font-weight: bold;
+float: left;
+clear: right;
+}
+
+#footer a{
+font-weight: normal;
+text-decoration: none;
+color: #6d6e70;
+}
+
+#footer a:hover{
+color: #f7931d;
+}
+
+.social_icons {
+float: right;
+width: 238px;
+height: 60px;
+margin: 5px 0px;
+list-style-type: none;
+overflow: hidden;
+}
+
+.social_icons li{
+float: left;
+margin-left: 15px;
+}
+.facebook_icon {
+display: block;
+width: 60px;
+height: 60px;
+background: url('images/facebook_icon.jpg') ;
+text-indent: -99999px;
+}
+
+.twitter_icon {
+display: block;
+width: 60px;
+height: 60px;
+background: url('images/twitter_icon.jpg') ;
+text-indent: -99999px;
+}
+
+.dribbble_icon {
+display: block;
+width: 60px;
+height: 60px;
+background: url('images/dribbble_icon.jpg') ;
+text-indent: -99999px;
+}
+
+
+.facebook_icon:hover, .twitter_icon:hover, .dribbble_icon:hover {
+background-position: 0 59px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Lava Lamp Navigation*/
+
+.lavaLampBottomStyle {
+position: relative;
+top: -46px;
+float: right;
+height: 29px;
+width: 523px;
+padding-bottom: 15px;
+overflow: hidden;
+} 
+
+.lavaLampBottomStyle li {
+float: left;
+padding: 0px 0px 0px 5px;
+list-style: none;
+}
+
+.lavaLampBottomStyle li.back {
+border-bottom: 5px solid #f7931d;
+width: 9px;
+height: 30px;
+z-index: 8;
+position: absolute;
+}
+
+.lavaLampBottomStyle li a {
+text-decoration: none;
+font-size: 1.5em;
+font-weight: bold;
+color: #58595b;
+outline: none;
+text-align: center;
+top: 7px;
+text-transform: uppercase;
+letter-spacing: 0;
+z-index: 10;
+display: block;
+float: left;
+height: 30px;
+position: relative;
+overflow: hidden;
+margin: auto 10px;
+}
+
+.lavaLampBottomStyle li a:hover, .lavaLampBottomStyle li a:active, .lavaLampBottomStyle li a:visited {
+border: none;
+}
+
+
+/*Home Content*/
+
+#home_headline {
+position: relative;
+width: 950px;
+height: 352px;
+background-image:url('images/home_headline.jpg');
+}

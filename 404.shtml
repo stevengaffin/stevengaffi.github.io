@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:og="http://opengraphprotocol.org/schema"
+      xmlns:fb="https://www.facebook.com/2008/fbml">
+
+<head>
+	<title>Steven Gaffin / Graphic &amp; Web Designer / Chattanooga, TN</title>
+	<meta http-equiv="content-type"
+		content="text/html;charset=utf-8" />
+
+<link rel="stylesheet" href="http://www.sgaffin.com/style.css" type="text/css" media="screen" />
+<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />
+</head>
+<body>
+<div id="promo_bg"> </div>
+
+<div id="container">
+     <div id="header">
+          <a href="http://www.sgaffin.com/" title="Steven Gaffin Graphic and Web Design Portfolio"><img class="logo" src="http://www.sgaffin.com/images/logo.jpg" alt="Steven Gaffin Design Portfolio" /></a>
+          <ul class="nav">
+              <li><a class="current" href="http://www.sgaffin.com/">HOME</a>
+                  <br /><img class="home_point" src="http://www.sgaffin.com/images/point.png" alt="" /></li>
+                  <li class="spacer"> / </li>
+
+              <li><a href="http://www.sgaffin.com/about/">ABOUT</a></li>
+                      <li class="spacer"> / </li>
+
+              <li><a href="http://www.sgaffin.com/portfolio/">PORTFOLIO</a></li>
+                      <li class="spacer"> / </li>
+
+              <li><a href="http://www.sgaffin.com/contact/">CONTACT</a></li>
+          </ul>
+     </div>
+     <div id="home_promo">
+          <h6>I'm proud to say I love designing for web and print.</h6>
+     </div>
+     <h1 class="name">OH NO!</h1><br />
+     <h1 class="intro">The requested URL sgaffin.com<!--#echo var="REQUEST_URI" --> was not found.</h1>
+     <p class="sub_intro">Please come <a class="light" href="http://www.sgaffin.com" title="Design and Development of Steven Gaffin">HOME</a>. I miss you.</p>
+</div>
+     <div id="footer">
+          <div id="footer_content">
+               <p>
+                  <span class="bold">&copy; 2011 Steven Gaffin. All Rights Reserved.</span><br />
+                  <a href="http://www.sgaffin.com/" title="Steven Gaffin Graphic Designer / Web Designer - Chattanooga, TN">HOME</a> /
+                  <a href="http://www.sgaffin.com/about/" title="About Steven Gaffin"> ABOUT</a> /
+                  <a href="http://www.sgaffin.com/portfolio/" title="Steven Gaffin Graphic Design and Web Design Portfolio"> PORTFOLIO</a> /
+                  <a href="http://www.sgaffin.com/contact/" title="Contact Steven Gaffin"> CONTACT</a>
+               </p>
+               <ul class="social">
+                    <li><a class="twitter_icon" href="http://twitter.com/stevengaffin" target="_blank">Steven Gaffin Graphic Designer and Web Developer on Twitter.</a></li>
+                    <li><a class="facebook_icon" href="http://facebook.com/sgaffin" target="_blank">Steven Gaffin Graphic Designer and Web Developer on Facebook.</a></li>
+                    <li><a class="dribbble_icon" href="http://dribbble.com/stevengaffin" target="_blank">Steven Gaffin Graphic Designer and Web Developer on Dribbble.</a></li>
+                    <li><a class="hire_me" href="http://www.sgaffin.com/contact/">Steven is Availabe for Hire.</a></li>
+               </ul>
+          </div>
+     </div>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-22772763-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</body>
+</html>

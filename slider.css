@@ -1,0 +1,72 @@
+/*// hashslider v0.9 by manuel huegel, copyright 2010
+// mgoys.com*/
+
+
+/*the container*/
+#slider {
+	position: relative; /*important for ie bugfix*/
+	width: 940px; height: 320px; /*the width of the slider is important but could be everything in pixels*/
+	overflow: hidden;
+	z-index: 10;
+
+	}
+	
+
+#slider ul { /*the width of the ul and the li will be set automaticly by the javascript!*/
+	position: relative; 
+	}
+	
+#slider ul li { /*the width of the ul and the li will be set automaticly by the javascript!*/
+	float: left;
+	}
+
+
+#directionals {
+        margin: 15px 0px 0px 320px;
+        width: 300px;
+        height: 30px;
+       	font-weight: bold;
+        color: #BBBDBF;
+        }
+
+/*the for and back buttons*/
+#right { /*hides the inline text with textindent*/
+	cursor: pointer;
+	float: right;
+	margin: 5px 10px;
+	}
+
+
+#left {
+	cursor: pointer;
+	float: left;
+	margin: 5px 45px 0px 10px;
+	}
+
+#left:hover, #right:hover {
+        color: #f8931f;
+        }
+
+/*the numbered navigation*/
+#numbers { /*also the width of the number-wrapper will be set automaticly, delete line 33-35 in the js to avoid this*/
+	text-align: center;
+	list-style: none;
+	width: 90px;
+	cursor: pointer;
+	float: left;
+	margin-top: 5px;
+	}
+	
+#numbers li {
+    position: relative;
+    width: 18px; height: 13px;
+    float: left;
+    cursor: pointer;
+
+
+	}
+
+
+.activenum { /*marks the current sliderposition*/
+ color: #f8931f;
+	}
