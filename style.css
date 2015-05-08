@@ -184,7 +184,7 @@ float: left;
 margin-left: 10px;
 }
 
-a.twitter_icon, a.dribbble_icon, a.facebook_icon {
+a.git_icon, a.dribbble_icon, a.facebook_icon {
 display: block;
 width: 49px;
 height: 49px;
@@ -192,7 +192,7 @@ text-indent: -99999px;
 float: left;
 }
 
-a.twitter_icon {
+a.git_icon {
 background-image:url('./images/twitter_icon.jpg');
 }
 
@@ -204,7 +204,7 @@ a.facebook_icon {
 background-image:url('./images/facebook_icon.jpg');
 }
 
-a.twitter_icon:hover, a.dribbble_icon:hover, a.facebook_icon:hover {
+a.git_icon:hover, a.dribbble_icon:hover, a.facebook_icon:hover {
 background-position: 0 49px;
 }
 
